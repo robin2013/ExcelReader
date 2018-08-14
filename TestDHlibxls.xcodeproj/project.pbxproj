@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3DA903DC179ABE8F006C2EF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA903DB179ABE8F006C2EF2 /* Default-568h@2x.png */; };
+		8D1C3B1E21230C3900AA142C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1C3B1C21230C3800AA142C /* libiconv.tbd */; };
+		8D1C3B2121230D3400AA142C /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1C3B1F21230D0C00AA142C /* libiconv.2.tbd */; };
+		8D1C3B2221230D6000AA142C /* libDHxlsReaderIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B9A14BC7D9700845894 /* libDHxlsReaderIOS.a */; };
 		DE9798C614BC7FF8006E5AC2 /* test.xls in Resources */ = {isa = PBXBuildFile; fileRef = DE9798C514BC7FF8006E5AC2 /* test.xls */; };
-		DE9798C814BC8349006E5AC2 /* libDHxlsReaderIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B9A14BC7D9700845894 /* libDHxlsReaderIOS.a */; };
-		DE9798CD14BC83C1006E5AC2 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9798CC14BC83C1006E5AC2 /* libiconv.dylib */; };
 		DE97994614BCD72E006E5AC2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE97994514BCD72E006E5AC2 /* Icon.png */; };
 		DEB78B7514BC7D4400845894 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B7414BC7D4400845894 /* UIKit.framework */; };
 		DEB78B7714BC7D4400845894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B7614BC7D4400845894 /* Foundation.framework */; };
@@ -61,8 +62,9 @@
 
 /* Begin PBXFileReference section */
 		3DA903DB179ABE8F006C2EF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D1C3B1C21230C3800AA142C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		8D1C3B1F21230D0C00AA142C /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
 		DE9798C514BC7FF8006E5AC2 /* test.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.xls; sourceTree = "<group>"; };
-		DE9798CC14BC83C1006E5AC2 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		DE97994514BCD72E006E5AC2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		DEB78B7014BC7D4400845894 /* TestDHlibxls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDHlibxls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB78B7414BC7D4400845894 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -86,8 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9798CD14BC83C1006E5AC2 /* libiconv.dylib in Frameworks */,
-				DE9798C814BC8349006E5AC2 /* libDHxlsReaderIOS.a in Frameworks */,
+				8D1C3B2221230D6000AA142C /* libDHxlsReaderIOS.a in Frameworks */,
+				8D1C3B2121230D3400AA142C /* libiconv.2.tbd in Frameworks */,
+				8D1C3B1E21230C3900AA142C /* libiconv.tbd in Frameworks */,
 				DEB78B7514BC7D4400845894 /* UIKit.framework in Frameworks */,
 				DEB78B7714BC7D4400845894 /* Foundation.framework in Frameworks */,
 				DEB78B7914BC7D4400845894 /* CoreGraphics.framework in Frameworks */,
@@ -121,7 +124,8 @@
 		DEB78B7314BC7D4400845894 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE9798CC14BC83C1006E5AC2 /* libiconv.dylib */,
+				8D1C3B1F21230D0C00AA142C /* libiconv.2.tbd */,
+				8D1C3B1C21230C3800AA142C /* libiconv.tbd */,
 				DEB78B7414BC7D4400845894 /* UIKit.framework */,
 				DEB78B7614BC7D4400845894 /* Foundation.framework */,
 				DEB78B7814BC7D4400845894 /* CoreGraphics.framework */,
